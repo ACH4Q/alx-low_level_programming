@@ -24,14 +24,14 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		*head = harrumma;
 	else
 	{
-		listint_t *achux = *head;
+		listint_t *ACH4Q = *head;
 
-		while (achux->next)
+		while (ACH4Q->next)
 		{
-			achux = achux->next;
+			ACH4Q = ACH4Q->next;
 		}
 
-		achux->next = harrumma;
+		ACH4Q->next = harrumma;
 	}
 
 	return (harrumma);
